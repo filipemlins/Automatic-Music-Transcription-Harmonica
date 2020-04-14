@@ -1,0 +1,15 @@
+@article{vincent:inria-00544094,
+  TITLE = {{Adaptive harmonic spectral decomposition for multiple pitch estimation}},
+  AUTHOR = {Vincent, Emmanuel and Bertin, Nancy and Badeau, Roland},
+  URL = {https://hal.inria.fr/inria-00544094},
+  JOURNAL = {{IEEE Trans. on Audio, Speech and Language Processing}},
+  PUBLISHER = {{IEEE}},
+  VOLUME = {18},
+  NUMBER = {3},
+  PAGES = {528--537},
+  YEAR = {2010},
+  PDF = {https://hal.inria.fr/inria-00544094/file/vincent_TASLP10.pdf},
+  HAL_ID = {inria-00544094},
+  HAL_VERSION = {v1},
+}
+

@@ -1,0 +1,30 @@
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix vamp:     <http://purl.org/ontology/vamp/> .
+@prefix :         <#> .
+
+:transform a vamp:Transform ;
+    vamp:plugin <file:///usr/local/lib/vamp/mf0ua.n3#transform_plugin> ;
+    vamp:step_size "512"^^xsd:int ; 
+    vamp:block_size "4096"^^xsd:int ; 
+    vamp:plugin_version """2""" ; 
+    vamp:parameter_binding [
+        vamp:parameter [ vamp:identifier "algorithm" ] ;
+        vamp:value "0"^^xsd:float ;
+    ] ;
+    vamp:parameter_binding [
+        vamp:parameter [ vamp:identifier "highestnote" ] ;
+        vamp:value "2100"^^xsd:float ;
+    ] ;
+    vamp:parameter_binding [
+        vamp:parameter [ vamp:identifier "lowestnote" ] ;
+        vamp:value "38"^^xsd:float ;
+    ] ;
+    vamp:parameter_binding [
+        vamp:parameter [ vamp:identifier "maxpolyphony" ] ;
+        vamp:value "6"^^xsd:float ;
+    ] ;
+    vamp:parameter_binding [
+        vamp:parameter [ vamp:identifier "minnoteduration" ] ;
+        vamp:value "0.023"^^xsd:float ;
+    ] ;
+    vamp:output [ vamp:identifier "mf0ua" ] .
